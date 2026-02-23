@@ -1,0 +1,38 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+*.zip
+
+# Android
+*.apk
+*.aab
+*.dex
+*.so
+local.properties
+
+# Java/Kotlin/Gradle
+*.class
+.gradle/
+
+# Rust
+target/
+
+# Secrets (never commit)
+.env
+.env.local
+*.pem
+*.key
+credentials.json
