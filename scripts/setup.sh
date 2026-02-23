@@ -24,7 +24,7 @@ echo "========================================="
 echo ""
 
 # 1. Submodules
-log "Git submodules 초기화 (12개)..."
+log "Git submodules 초기화 (13개)..."
 git submodule init 2>/dev/null
 git submodule update --recursive
 ok "Submodules 준비 완료"
@@ -88,7 +88,7 @@ echo "  서브모듈 ($(git submodule status | wc -l | tr -d ' ')개):"
 git submodule status | while read -r line; do echo "    $line"; done
 echo ""
 echo "  카테고리:"
-echo "    Agent SDK:        androidAgent, whatapAndroidPlugin"
+echo "    Agent SDK:        androidAgent, whatapAndroidPlugin, android_apkinjector"
 echo "    Mobile Spec:      whatap-mobile-agent-spec"
 echo "    Crash Decoding:   proguardApi, whatap-stack-repository"
 echo "    Testing & QA:     whatap-webview-sample, android-business-sample-apps,"

@@ -34,3 +34,6 @@
 [submodule "whatap-mobile-proxy-server"]
 	path = whatap-mobile-proxy-server
 	url = https://github.com/whatap/whatap-mobile-proxy-server.git
+[submodule "android_apkinjector"]
+	path = android_apkinjector
+	url = https://github.com/whatap/android_apkinjector.git

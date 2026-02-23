@@ -1,6 +1,6 @@
 # WhaTap Android Workspace
 
-WhaTap Android 모니터링 관련 프로젝트 통합 개발 환경. 12개 서비스를 git submodule로 관리합니다.
+WhaTap Android 모니터링 관련 프로젝트 통합 개발 환경. 13개 서비스를 git submodule로 관리합니다.
 
 ## Quick Start
 
@@ -30,6 +30,9 @@ whatapAndroid-myworkspace/
 ├── # ── Android Agent SDK ─────────────────────────────
 ├── androidAgent/                  ← Android Agent SDK 소스 (27 모듈) (whatap)
 ├── whatapAndroidPlugin/           ← Android Gradle Plugin (AGP 7.x/8.x) (whatap)
+│
+├── # ── APK Injector ──────────────────────────────────
+├── android_apkinjector/           ← APK에 Agent 자동 주입 (dex-transformer) (whatap)
 │
 ├── # ── Mobile Spec & Protocol ────────────────────────
 ├── whatap-mobile-agent-spec/     ← 모바일 Agent 데이터 전송 프로토콜 스펙 (whatap)
@@ -63,6 +66,12 @@ whatapAndroid-myworkspace/
 |--------|------|-----------|------|
 | **androidAgent** | Android Agent SDK 소스 (27 모듈 멀티프로젝트) | Java/Kotlin, Gradle 7.5 | whatap |
 | **whatapAndroidPlugin** | Android Gradle Plugin (빌드 타임 계측) | Java/Kotlin, Gradle 8.10 | whatap |
+
+### APK Injector
+
+| 서비스 | 역할 | 기술 스택 | 소유 |
+|--------|------|-----------|------|
+| **android_apkinjector** | APK에 WhatAp Agent 자동 주입 (dex-transformer) | Kotlin, Gradle | whatap |
 
 ### Mobile Spec & Protocol
 
