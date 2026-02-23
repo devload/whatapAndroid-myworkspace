@@ -1,6 +1,6 @@
 # WhaTap Android Workspace
 
-이 워크스페이스는 WhaTap Android 모니터링 관련 13개 프로젝트를 git submodule로 통합 관리하는 개발 환경입니다.
+이 워크스페이스는 WhaTap Android 모니터링 관련 12개 프로젝트를 git submodule로 통합 관리하는 개발 환경입니다.
 Android Agent SDK, Gradle Plugin, Proguard 디코딩, QA/테스트, 도구 프로젝트 포함.
 
 ## 프로젝트 구조

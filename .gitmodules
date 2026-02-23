@@ -1,0 +1,36 @@
+[submodule "androidAgent"]
+	path = androidAgent
+	url = https://github.com/whatap/androidAgent.git
+[submodule "whatapAndroidPlugin"]
+	path = whatapAndroidPlugin
+	url = https://github.com/whatap/whatapAndroidPlugin.git
+[submodule "whatap-mobile-agent-spec"]
+	path = whatap-mobile-agent-spec
+	url = https://github.com/whatap/whatap-mobile-agent-spec.git
+[submodule "proguardApi"]
+	path = proguardApi
+	url = https://github.com/whatap/proguardApi.git
+[submodule "whatap-stack-repository"]
+	path = whatap-stack-repository
+	url = https://github.com/whatap/whatap-stack-repository.git
+[submodule "whatap-webview-sample"]
+	path = whatap-webview-sample
+	url = https://github.com/devload/whatap-webview-sample.git
+[submodule "android-business-sample-apps"]
+	path = android-business-sample-apps
+	url = https://github.com/devload/android-business-sample-apps.git
+[submodule "NativeWebviewCrashExample"]
+	path = NativeWebviewCrashExample
+	url = https://github.com/devload/NativeWebviewCrashExample.git
+[submodule "apk2project"]
+	path = apk2project
+	url = https://github.com/devload/apk2project.git
+[submodule "whatap-device-cli"]
+	path = whatap-device-cli
+	url = https://github.com/whatap/whatap-device-cli.git
+[submodule "demo-generator"]
+	path = demo-generator
+	url = https://github.com/whatap/mobile_demoGenerator.git
+[submodule "whatap-mobile-proxy-server"]
+	path = whatap-mobile-proxy-server
+	url = https://github.com/whatap/whatap-mobile-proxy-server.git

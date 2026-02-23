@@ -24,7 +24,7 @@ echo "========================================="
 echo ""
 
 # 1. Submodules
-log "Git submodules 초기화 (13개)..."
+log "Git submodules 초기화 (12개)..."
 git submodule init 2>/dev/null
 git submodule update --recursive
 ok "Submodules 준비 완료"

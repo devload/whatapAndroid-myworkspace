@@ -1,6 +1,6 @@
 # WhaTap Android Workspace
 
-WhaTap Android 모니터링 관련 프로젝트 통합 개발 환경. 13개 서비스를 git submodule로 관리합니다.
+WhaTap Android 모니터링 관련 프로젝트 통합 개발 환경. 12개 서비스를 git submodule로 관리합니다.
 
 ## Quick Start
 
